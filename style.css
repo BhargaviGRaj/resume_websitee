@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background: #080808; /* Ensure all page backgrounds are the same */
+  color: #fff; /* Default text color */
+  margin: 0;
+  padding: 0;
+  
+}
+p{
+  color: #a5a1a1;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #fdfdfd;
+}
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer{
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro-container {
+  height: 100vh;
+  background: url('assets/images/hero-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #2575fc;
+  color: #080808;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6a11cb;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.resume-container, .bio-container {
+  background-color: #080808; /* Matching the body background color */
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.card {
+  background: rgb(81, 82, 81);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contact{
+  background: rgb(81, 82, 81);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+.skills{
+  background: rgb(81, 82, 81);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+.personal-info{
+  background: rgb(81, 82, 81);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  animation: fadeIn 1.5s ease-in;
+}
+
+.personal-info, .contact, .skills { 
+  animation: fadeIn 2s ease-in-out;
+}
+.card, .content { 
+  animation: fadeIn 2s ease-in-out;
+}
+
+
+  
